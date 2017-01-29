@@ -1,0 +1,40 @@
+﻿body {
+  width: 640px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+.img-thumbnails {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+}
+.img-thumbnails > li {
+  display: inline;
+}
+.Gem {
+  zoom: 1.2;
+  margin-bottom: 15px;
+}
+.gems {
+  zoom: 0.4;
+}
+.img-wrap {
+  text-align: center;
+}
+.nav-pills > li > a {
+  cursor: pointer;
+  color: purple;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: purple;
+}
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+.ng-valid.ng-dirty {
+  border-color: green;
+}
